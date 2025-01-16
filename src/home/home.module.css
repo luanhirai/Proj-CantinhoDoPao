@@ -65,12 +65,15 @@
 
 
 .ballstyle {
-    width: 600px;
-    height: 500px;
+    width: 1000px;
+    height: 470px;
     position: fixed;
-    background-color: #572307;
-    right: 0; /* Posiciona o elemento no lado direito */
-    top: 300px ; /* Opcional: para alinhar no topo */
+    background-color: #f39555;
+    right: -200px; /* Metade da largura para fora */
+    top: 350px; 
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+
 }
+

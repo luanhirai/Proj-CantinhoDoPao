@@ -9,9 +9,9 @@ export default function header() {
         <div className={style.page}>
             <div className={style.menu}>
                 <img className={style.logo} src={logo} alt="" />
-                <h3>Home</h3>
-                <h3>About us</h3>
-                <h3>Contact</h3>
+                <h3>Ínicio</h3>
+                <h3>Sobre nós</h3>
+                <h3>Contato</h3>
             </div>
             <div className={style.menu2}>
                 <div className={style.icon}><ShoppingBagOutlinedIcon /></div>
