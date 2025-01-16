@@ -1,0 +1,59 @@
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 120px;
+    color: rgb(97, 63, 1);
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    width: 900px;
+    margin-left: 120px;
+    color: rgb(97, 63, 1);
+}
+
+.icon{
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.icon:hover{
+    transform: scale(1.05);
+}
+
+.iconRule{
+    margin-right: 20px;
+    transform: rotate(90deg);
+}
+
+.page h3 {
+    margin: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+
+.page h3:hover {
+    color: rgb(121, 78, 0);
+    border-bottom: 1px solid rgb(93, 93, 93);
+}
+
+
+.logo{
+    width: 80px;
+}
